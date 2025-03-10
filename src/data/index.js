@@ -39,7 +39,7 @@ export const PROJECTS = [
     name: "Movie App",
     description:
       "Movie landing page, with functional search options. (with API)",
-    techs: [javascript, react, tailwindcss],
+    techs: [html, javascript, react, tailwindcss],
     image: movieapp1,
     githubLink: "https://github.com/andrefsbacalhau/movie-app-1",
     vercelLink: "https://movie-app-1-flame.vercel.app/",
@@ -48,7 +48,7 @@ export const PROJECTS = [
     name: "Weather App",
     description:
       "Check the current weather for every city worldwide! (with API)",
-    techs: [javascript, react, tailwindcss],
+    techs: [html, javascript, react, tailwindcss],
     image: weatherApp1,
     githubLink: "https://github.com/andrefsbacalhau/weather-app-1",
     vercelLink: "https://weather-app-1-fawn.vercel.app/",
@@ -56,7 +56,7 @@ export const PROJECTS = [
   {
     name: "E-Commerce App",
     description: "Clothing website with a functional cart. (with API)",
-    techs: [javascript, react, tailwindcss],
+    techs: [html, javascript, react, tailwindcss],
     image: ecommerce1,
     githubLink: "https://github.com/andrefsbacalhau/ecommerce-app-1",
     vercelLink: "https://ecommerce-app-1-ashen.vercel.app/",
