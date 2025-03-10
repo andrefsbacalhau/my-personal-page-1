@@ -1,4 +1,4 @@
-import weatherApp1 from "../assets/projectImgs/weatherApp1.jpg";
+import weatherapp1 from "../assets/projectImgs/weatherapp1.jpg";
 import movieapp1 from "../assets/projectImgs/movieapp1.jpg";
 import ecommerce1 from "../assets/projectImgs/ecommerce1.jpg";
 import personalPage1 from "../assets/projectImgs/personalPage1.jpg";
@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "Check the current weather for every city worldwide! (with API)",
     techs: [html, javascript, react, tailwindcss],
-    image: weatherApp1,
+    image: weatherapp1,
     githubLink: "https://github.com/andrefsbacalhau/weather-app-1",
     vercelLink: "https://weather-app-1-fawn.vercel.app/",
   },
