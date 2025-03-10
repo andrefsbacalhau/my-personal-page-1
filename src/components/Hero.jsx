@@ -54,8 +54,6 @@ const Hero = () => {
             className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl border border-transparent hover:bg-black hover:text-white hover:border-white transition-colors duration-300"
             href={HERO_CONTENT.resumeLink}
             download
-            rel="noopener noreferrer"
-            target="_blank"
             variants={textVariants}
           >
             {HERO_CONTENT.resumeLinkText}

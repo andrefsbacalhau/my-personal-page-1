@@ -8,6 +8,7 @@ import sass from "../assets/technologies/sass.png";
 import tailwindcss from "../assets/technologies/tailwindcss.png";
 import html from "../assets/technologies/html.png";
 import react from "../assets/technologies/react.png";
+import cv from "../assets/cv.pdf";
 
 export const LINKS = [
   { href: "#about", label: "About" },
@@ -24,7 +25,7 @@ export const HERO_CONTENT = {
   description:
     "Mostly, i'm a self-learning developer that is always open and available to develop my skills with all the knowledge i can get about all things. \nI consider myself as someone who's always looking forward to achieve my goals with efficiency, precision and always in search of better way to do things.",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: cv,
 };
 
 export const PROJECTS = [
@@ -159,7 +160,7 @@ export const INTERSHIPS = [
     description: [
       "Software developer/IT technician.",
       "Advisor and team-leading with a local team of other interns",
-      "Trainer assessments.",
+      "Trainer functions.",
     ],
     finalEval: "18/20 points",
   },
@@ -182,7 +183,8 @@ export const INTERSHIPS = [
     description: [
       "Software developer/IT technician.",
       "Data management.",
-      "Administrative assessments.",
+      "Participated in Workshops of Speech and Body language",
+      "Administrative assistant.",
     ],
     finalEval: "20/20 points",
   },
@@ -204,22 +206,23 @@ export const CONTACT_CONTENT = {
   description:
     "Hopefully you found interests in common, i'm excited to collaborate on projects that have a purpuose and meaningful impact. Contact me for a meeting or for more information. Let's create something great!",
   email: "andrefsbacalhau@gmail.com",
+  phone: "(+351) 967176163",
   socialLinks: [
     {
-      platform: "Twitter",
-      url: "https://twitter.com/yourprofile",
-      ariaLabel: "Follow me on Twitter",
-      icon: "RiTwitterXFill",
+      platform: "Instagram",
+      url: "https://www.instagram.com/andrefsbacalhau",
+      ariaLabel: "Follow me on Instagram",
+      icon: "RiInstagramLine",
     },
     {
       platform: "GitHub",
-      url: "https://github.com/yourprofile",
+      url: "https://github.com/andrefsbacalhau",
       ariaLabel: "View my GitHub profile",
       icon: "RiGithubFill",
     },
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
+      url: "https://www.linkedin.com/in/andr%C3%A9-silva-b81853323/",
       ariaLabel: "Connect with me on LinkedIn",
       icon: "RiLinkedinFill",
     },

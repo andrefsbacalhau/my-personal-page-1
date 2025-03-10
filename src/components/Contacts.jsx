@@ -2,7 +2,12 @@ import { motion } from "framer-motion";
 import { text } from "framer-motion/client";
 import React from "react";
 import { CONTACT_CONTENT } from "../data";
-import { RiGithubFill, RiLinkedinFill, RiTwitterXFill } from "@remixicon/react";
+import {
+  RiGithubFill,
+  RiInstagramFill,
+  RiLinkedinFill,
+  RiTwitterXFill,
+} from "@remixicon/react";
 
 const Contacts = () => {
   const textVariants = {
@@ -66,11 +71,24 @@ const Contacts = () => {
         {CONTACT_CONTENT.email}
       </motion.a>
 
+      <motion.p
+        className="text-lg md:text-2xl mt-8 max-w-3xl"
+        initial="hidden"
+        whileInView="visible"
+        custom={0.6}
+        variants={textVariants}
+      >
+        <a href="https://wa.me/351967176163" className="font-semibold">
+          {CONTACT_CONTENT.phone}
+        </a>{" "}
+        <p className="text-base text-zinc-500">(available on WhatsApp)</p>
+      </motion.p>
+
       <div className="flex space-x-6 mt-8">
         {CONTACT_CONTENT.socialLinks.map((link, index) => {
           const Icon =
-            link.icon === "RiTwitterXFill"
-              ? RiTwitterXFill
+            link.icon === "RiInstagramLine"
+              ? RiInstagramFill
               : link.icon === "RiGithubFill"
               ? RiGithubFill
               : RiLinkedinFill;
