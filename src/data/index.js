@@ -67,7 +67,7 @@ export const PROJECTS = [
 export const ABOUT_CONTENT = {
   paragraphs: [
     "I am a dedicated junior front-end developer, always looking to build the next project better and cleaner than the last, meeting the requirement of the projects/challenges i’m facing. In my developing process, I always try to find a balance between the aesthetically pleasing side and also the functional side, never leaving behind the performance and the user-friendlyness. By being an overall self-learning front-end developer, I’ve built dozens of projects which some of them can be found available on this page.",
-    "Since i’ve been focusing more on the front-end side, i grew fond and focused a few technologies (besides JavaScript, HTML and CSS), such as ReactJS and TailwindCSS, but I can also develop with CSS and the basics with SaSS. All my projects are scalable, responsive and always taken in consideration to have the best performance providing a seamless user experience.",
+    "Since i’ve been focusing more on the front-end side, i grew fond and focused a few technologies (besides JavaScript, HTML and CSS), such as ReactJS and TailwindCSS, but I can also develop with CSS and the basics with SASS. All my projects are scalable, responsive and always taken in consideration to have the best performance providing a seamless user experience.",
   ],
 };
 
